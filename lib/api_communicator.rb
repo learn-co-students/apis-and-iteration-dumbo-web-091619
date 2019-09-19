@@ -12,7 +12,7 @@ end
 
 
 def find_characters_in_api(character_name)
-  #make the web request
+ 
   hash_data = get_character_hash_data()
   hash_data.find do |character|
     character['name'].downcase == character_name 
